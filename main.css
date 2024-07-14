@@ -1,0 +1,112 @@
+
+header > h1 {
+background-color: BurlyWood;
+color: white;
+font-size:100px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+width: 88%;
+}
+
+section {
+	background-color: BurlyWood;
+}
+section > h2 {
+	text-align: center;
+}
+section > p {
+	text-align: center;
+
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 2fr 1fr;
+	grid-template-areas: "header header header"
+			     "companyDescript companyDescript companyDescript"
+			     "footer footer footer";
+	
+	font-family: 'Almarai';font-size: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+	background-color: Grey;
+	color: white;
+}
+
+body > footer > nav.horizontalNavigation li {
+	width: 25%;
+}
+body > header > h1 {
+background-color: BurlyWood;
+color: white;
+font-size:100px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+body > header{grid-area: header;}
+body > section{grid-area: companyDescript;}
+body > footer{grid-area: footer;}
+body > div{grid-area: header;}
+
+
+div {
+	background-color: Black;
+}
+nav.horizontalNavigation li {
+	display: block;
+	float: left;
+	
+}
+
+nav.horizontalNavigation a {
+	display: block;
+	text-align: center;
+	background-color: rgb(67, 42, 0);
+	color: white;
+   font-size: 2.6em;
+   line-height: 3.0em;
+   text-align: center;
+}
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: White;
+}
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: Moccasin;
+   color: black;
+}
+
+footer{
+	clear: left;
+	background-color: Black;
+}
+footer > p {
+	clear: left;
+}
+footer > a {
+	clear: left;
+}
+
+body > footer {
+   font-size: 0.9em;
+   color: White;
+}
+
+address, article, aside, blockquote, vody, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, ol, p, section, span, ul {
+	box-sizing: border-box;
+}
+
+* {
+	padding: 0;
+}
+
+/* Last Updated July 13th 2024 */
