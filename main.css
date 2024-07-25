@@ -57,6 +57,15 @@ body > div{grid-area: header;}
 div {
 	background-color: Black;
 }
+div.accordion-body{
+	color: white;
+}
+h5.card-title{
+	color: white;
+}
+p.card-text{
+	color: white;
+}
 nav.horizontalNavigation li {
 	display: block;
 	float: left;
