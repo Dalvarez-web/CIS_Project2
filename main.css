@@ -60,6 +60,11 @@ div {
 div.accordion-body{
 	color: white;
 }
+div.creature1Image{
+	display: block;
+  margin-left: 430px;
+  margin-right: 430px;
+}
 h5.card-title{
 	color: white;
 }
